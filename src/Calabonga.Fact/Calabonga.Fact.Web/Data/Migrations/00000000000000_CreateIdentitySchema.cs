@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 
-namespace Calabonga.Fact.Web.Data.Migrations
+namespace Calabonga.Facts.Web.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Calabonga.Fact.Web.Infrastructure
+namespace Calabonga.Facts.Web.Infrastructure
 {
     public static class AppData
     {

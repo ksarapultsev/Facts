@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 using Serilog;
 using Serilog.Events;
 using Microsoft.Extensions.DependencyInjection;
-using Calabonga.Fact.Web.Data;
+using Calabonga.Facts.Web.Data;
 
-namespace Calabonga.Fact.Web
+namespace Calabonga.Facts.Web
 {
     public class Program
     {

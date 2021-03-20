@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Calabonga.Fact.Web.Data.Migrations
+namespace Calabonga.Facts.Web.Data.Migrations
 {
     public partial class EntityNoficationAdded : Migration
     {

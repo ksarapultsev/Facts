@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Calabonga.Fact.Web.Data.Configuration
+namespace Calabonga.Facts.Web.Data.Configuration
 {
     public class NotificationModelConfiguration : IEntityTypeConfiguration<Notification>
     {

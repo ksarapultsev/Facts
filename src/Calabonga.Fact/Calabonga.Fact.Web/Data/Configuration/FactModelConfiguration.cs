@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Calabonga.Fact.Web.Data.Configuration
+namespace Calabonga.Facts.Web.Data.Configuration
 {
     public class FactModelConfiguration : IEntityTypeConfiguration<Fact>
     {
@@ -21,8 +21,9 @@ namespace Calabonga.Fact.Web.Data.Configuration
             builder.Property(x => x.CreatedBy).IsRequired().HasMaxLength(50);            
             builder.Property(x => x.UpdatedAt);
             builder.Property(x => x.UpdatedBy).HasMaxLength(50);
+            builder.Property(x => x.Number);
 
-            builder.HasIndex(x => x.Content);
+           
 
             builder.HasMany(x => x.Tags).WithMany(x => x.Facts);
         }

@@ -1,4 +1,4 @@
-﻿using Calabonga.Fact.Web.Models;
+﻿using Calabonga.Facts.Web.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Calabonga.Fact.Web.Controllers
+namespace Calabonga.Facts.Web.Controllers
 {
     public class HomeController : Controller
     {

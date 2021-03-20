@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Calabonga.Fact.Web.Data
+namespace Calabonga.Facts.Web.Data
 {
     public class Notification : Auditable
     {

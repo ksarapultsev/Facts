@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Calabonga.Fact.Web.Infrastructure;
+using Calabonga.Facts.Web.Infrastructure;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.DependencyInjection;
 using Calabonga.Microservices.Core.Exceptions;
 
-namespace Calabonga.Fact.Web.Data
+namespace Calabonga.Facts.Web.Data
 {
     public static class DataInitializer
     {

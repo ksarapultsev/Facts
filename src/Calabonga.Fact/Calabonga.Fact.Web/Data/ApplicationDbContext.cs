@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Calabonga.Fact.Web.Data
+namespace Calabonga.Facts.Web.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
