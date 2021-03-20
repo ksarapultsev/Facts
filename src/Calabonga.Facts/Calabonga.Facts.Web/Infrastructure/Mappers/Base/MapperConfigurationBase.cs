@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Calabonga.Facts.Web.Infrastructure.Base
+namespace Calabonga.Facts.Web.Infrastructure.Mappers.Base
 {
     /// <summary>
     /// Base class for mapper configuration

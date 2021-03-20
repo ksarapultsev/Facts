@@ -13,6 +13,6 @@ namespace Calabonga.Facts.Web.Data
 
         public ICollection<Fact> Facts  { get; set; }
 
-        public int Number { get; set; }
+       
     }
 }

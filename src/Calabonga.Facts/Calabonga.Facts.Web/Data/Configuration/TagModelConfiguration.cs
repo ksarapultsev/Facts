@@ -14,8 +14,7 @@ namespace Calabonga.Facts.Web.Data.Configuration
         {
             builder.ToTable("Tags");
             builder.HasKey(x => x.Id);
-            builder.Property(x => x.Id);
-            builder.Property(x => x.Number);
+            builder.Property(x => x.Id);            
             builder.Property(x => x.Name).HasMaxLength(50);
 
             builder.HasIndex(x => x.Name);
